@@ -15,5 +15,5 @@ To integrate Home Assistant, you need a Home Assistant instance running somewher
 2. Automation to do something when the pomodoro timer ends a work session.
 
 Resources: 
--https://www.home-assistant.io/docs/automation/
--https://www.home-assistant.io/docs/authentication/
+- https://www.home-assistant.io/docs/automation/
+- https://www.home-assistant.io/docs/authentication/
