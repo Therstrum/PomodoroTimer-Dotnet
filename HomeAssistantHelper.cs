@@ -22,6 +22,8 @@ class HomeAssistant
         {
             case Commands.START:
                 _httpHelper.HomeAssistServicePost(lampStartAutomationEntityId);
+                break;
+            case Commands.PAUSE:
                 _httpHelper.HomeAssistServicePost(lampPauseAutomationEntityId);
                 break;
             default:
