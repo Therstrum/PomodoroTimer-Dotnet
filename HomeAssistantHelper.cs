@@ -45,8 +45,8 @@ class HomeAssistant
             this.haToken = homeAssistantToken.token;
             this.HomeAssistantUrl = homeAssistantToken.url;
             this.homeAssistantToken.services = homeAssistantToken.services;
-            lampPauseAutomationEntityId = homeAssistantToken.services[0].entity_id;
-            lampStartAutomationEntityId = homeAssistantToken.services[1].entity_id;
+            lampPauseAutomationEntityId = homeAssistantToken.services[1].entity_id;
+            lampStartAutomationEntityId = homeAssistantToken.services[0].entity_id;
         }
         HaTokenData ValidateData()
         {
